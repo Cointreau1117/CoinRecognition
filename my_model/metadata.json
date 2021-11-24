@@ -1,0 +1,1 @@
+{"tfjsVersion":"1.3.1","tmVersion":"2.4.4","packageVersion":"0.8.4-alpha2","packageName":"@teachablemachine/image","timeStamp":"2021-11-24T06:03:14.536Z","userMetadata":{},"modelName":"硬貨認識 モデル","labels":["100yen_F","500yen_F","500yen_B","100yen_B","50yen_F","50yen_B","10yen_F","10yen_B","5yen_F","5yen_B","1yen_F","1yen_B"],"imageSize":224}
