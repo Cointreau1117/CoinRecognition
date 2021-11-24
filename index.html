@@ -61,9 +61,8 @@
         const prediction = await model.predict(webcam.canvas);
 
         
-        var Fhundred = prediction[2].probability + prediction[3].probability;
-        
-       
+
+        var ten = prediction[7].probability + prediction[8].probability;
          
         for (let i = 0; i < 1; i++) {
             const classPrediction = 
