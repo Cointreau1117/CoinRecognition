@@ -68,11 +68,12 @@
         var five = prediction[9].probability + prediction[10].probability;
         var one = prediction[11].probability + prediction[12].probability;
        
-    
-        const classPrediction = '10円' + ": " + ten.toFixed(3)*100 + '%';
-        const classPrediction = '100円' + ": " + hundred.toFixed(3)*100 + '%';
-
-        labelContainer.childNodes[i].innerHTML = classPrediction;
+         
+        for (let i = 0; i < 6; i++) {
+            const classPrediction = 
+                '10円' + ": " + ten.toFixed(3)*100 + '%';
+            
+        }
     }
 </script>
 
