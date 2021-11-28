@@ -69,13 +69,13 @@
                     prediction[9].probability + prediction[10].probability,
                     prediction[11].probability + prediction[12].probability];
 
-        let names = ["500円","100円","50円","10円","5円","1円",];
+        let names = ["500円","100円","50円","10円","5円","1円"];
 
          
         for (let i = 0; i < coin.length; i++) {
             const classPrediction = 
                 names[i] + ": " + coin[i].toFixed(3)*100 + '%';
-            labelContainer.childNodes[i-1].innerHTML = classPrediction;
+            labelContainer.childNodes[i].innerHTML = classPrediction;
             
             
         }
